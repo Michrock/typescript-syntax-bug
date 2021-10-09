@@ -30,6 +30,9 @@
 </template>
 
 <script setup lang="ts">
+
+const test = <string>'test';
+
 defineProps({
   msg: String,
 });
